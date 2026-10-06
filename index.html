@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f1e7">
+  <title>Mehanaj & Inzamam — Reception</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Noto+Serif+Bengali:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <p class="eyebrow">YOU ARE INVITED</p>
+      <div class="ornament">❦</div>
+      <h1>Mehanaj<br><span>&</span><br>Inzamam</h1>
+      <p class="bengali">শুভ অভ্যর্থনা</p>
+      <button id="openBtn">Tap to open</button>
+    </div>
+  </div>
+
+  <main id="invitation" class="hidden">
+    <section class="hero">
+      <div class="glow"></div>
+      <p class="eyebrow">RECEPTION · YOU'RE INVITED</p>
+      <div class="ornament">❦</div>
+      <h1>Mehanaj<br><span>&</span><br>Inzamam</h1>
+      <p class="bengali">মেহনাজ ও ইনজামাম</p>
+      <p class="scroll">You're Invited · Scroll for the Date ↓</p>
+    </section>
+
+    <section class="section letter">
+      <p class="bengali label">আমন্ত্রণ · A LETTER FROM THE FAMILY</p>
+      <h2>Our beloved<br><em>have found</em><br>their forever</h2>
+      <p>
+        With hearts full of happiness, we invite you to join us in celebrating
+        the beautiful beginning of Mehanaj and Inzamam's life together.
+        Your presence, love, laughter and blessings will make this occasion
+        even more special for our family.
+      </p>
+      <p>
+        Please come, share our joy and bless the couple as they begin this
+        wonderful journey together.
+      </p>
+      <p class="signature">— With love from the family</p>
+    </section>
+
+    <section class="section details">
+      <p class="bengali label">অনুষ্ঠানের বিবরণ · EVENT DETAILS</p>
+      <h2>An evening to<br><em>remember</em></h2>
+      <div class="detail-card">
+        <span>DATE & TIME</span>
+        <strong>1 January 2027</strong>
+        <small>Friday · শুক্রবার</small>
+        <strong>10:00 AM</strong>
+      </div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="bengali label">গণনা · COUNTING DOWN</p>
+      <h2>The wait is<br><em>almost over</em></h2>
+      <div class="countdown">
+        <div><b id="days">—</b><span>Days</span></div>
+        <div><b id="hours">—</b><span>Hours</span></div>
+        <div><b id="minutes">—</b><span>Minutes</span></div>
+        <div><b id="seconds">—</b><span>Seconds</span></div>
+      </div>
+    </section>
+
+    <section class="section venue">
+      <p class="bengali label">স্থান · COME FIND US</p>
+      <h2>We'll be waiting<br>for you <em>here</em></h2>
+      <div class="venue-card">
+        <div class="pin">⌖</div>
+        <h3>Sansat</h3>
+        <p>Reception Venue</p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Sansat" target="_blank" rel="noopener">Open in Google Maps ↗</a>
+      </div>
+    </section>
+
+    <section class="section blessing">
+      <p class="bengali label">আশীর্বাদ · FROM OUR HEARTS</p>
+      <h2>Come with your<br><em>love & blessings</em></h2>
+      <p>
+        Every celebration becomes richer when the people we love are there.
+        We humbly request you to grace this reception with your warmth,
+        prayers and blessings for Mehanaj and Inzamam.
+      </p>
+      <p class="bengali">আপনাদের স্নেহ ও আশীর্বাদ আমাদের কাছে সবচেয়ে মূল্যবান।</p>
+    </section>
+
+    <footer>
+      <div class="ornament">❦</div>
+      <h2>Mehanaj & Inzamam</h2>
+      <p class="bengali">মেহনাজ ও ইনজামাম</p>
+      <small>Reception · 01 · 01 · 2027</small>
+      <button id="musicBtn" aria-label="Toggle music">♪ Click to unmute</button>
+    </footer>
+  </main>
+
+  <audio id="music" loop preload="none">
+    <!-- Add your own music file as music.mp3 in this folder if desired. -->
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
